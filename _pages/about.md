@@ -11,7 +11,7 @@ I am a Machine Learning Researcher at Mila (Quebec AI Institute). I work on the 
 
 
 
-**You can contact me at shayan.nejadshamsi[at]mcgill[dot]ca**
+**You can contact me at x.nejadshamsi@mcgill.ca, x=shayan**
 
 
 ### Selected Publications  
