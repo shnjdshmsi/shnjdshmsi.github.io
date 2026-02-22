@@ -12,7 +12,7 @@ title                    : "Sanae Lotfi"
 title_separator          : "-"
 name                     : &name "Sanae Lotfi"
 description              : &description "PhD Candidate at NYU"
-url                      : https://sanaelotfi.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://shnejadshamsi.github.io// # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "sanaelotfi/sanaelotfi.github.io"
 
