@@ -21,7 +21,7 @@ repository               : "shnejadshamsi/shnejadshamsi.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "https://shnejadshamsi.github.io/images/shnejadshamsi.jpg"
+  avatar           : "https://shnejadshamsi.github.io/images/shnjdshmsi.jpg"
   name             : "Shayan Nejadshamsi"
   pronouns         : "he/him"  # example: "she/her"  
   bio              : "Machine Learning Researcher"
