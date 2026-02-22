@@ -1,12 +1,4 @@
-# The following is the order of the links in the header of the website.
-#
-# Changing the order here will adjust the order and you can also add additional
-# links. Removing a link prevents it from showing in the header, but does not
-# prevent it from being included in the site.
-#
-# NOTE that only one of the CV options should be selected, the first is for the
-#      Markdown formatted page while the second is generated using JSON.
-
+# main links links
 main:
   - title: "Publications"
     url: /publications/
@@ -15,22 +7,13 @@ main:
     url: /talks/    
 
   - title: "Awards"
-    url: /awards/
+    url: /awards/    
 
-  - title: "Teaching"
-    url: /teaching/    
+  - title: "Service"
+    url: /service/
     
-  #- title: "Portfolio"
-  #  url: /portfolio/
-        
-  #- title: "Blog Posts"
-  #  url: /year-archive/
+  - title: "Teaching"
+    url: /teaching/
     
   - title: "CV"
-    url: /cv/
-    
-  # - title: "CV"
-  #   url: /cv-json/
-    
-  #- title: "Guide"
-  #  url: /markdown/
+    url: https://sanaelotfi.github.io/files/cv/cv_sanae_lotfi.pdf
