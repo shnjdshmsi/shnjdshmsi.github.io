@@ -9,7 +9,9 @@ author_profile: true
 
 **Graph Neural Network**
 
-You can find the full list of my papers on <a href="{{site.author.googlescholar}}" target="_blank">>my Google Scholar profile.
+You can find the full list of my papers on <a href="{{site.author.googlescholar}}" target="_blank">> my Google Scholar profile.
+
+
 
 **[Predicting Short-Term Bike-Sharing Demand at Station Level: A Multi-Task Dynamic Graph-based Spatiotemporal Approach](https://www.sciencedirect.com/science/article/pii/S0950705125020246)** \
 **Shayan Nejadshamsi**, Jamal Bentahar, Chun Wang, Ursula Eicker \
@@ -51,6 +53,7 @@ Chunxue Xu, **Shayan Nejadshamsi**\
 _Internet of Things, 2026 (Under-review)_ 
 <!--[[arxiv](), [code]()] -->
 
+</span>
 
 ---
 
