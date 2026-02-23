@@ -89,10 +89,7 @@ _International Journal of Intelligent Networks, 2024_ \
 
 
 
-**[]()** \
- \
-_d_ \
-<!--[[arxiv](), [code]()] -->
+
 
 **[Spatio-Temporal Urban Analytics: Data-Driven Building Occupancy Estimation and Graph Deep Learning for Mobility Demand Forecasting](https://spectrum.library.concordia.ca/id/eprint/995656/)** \
 **Shayan Nejadshamsi** \

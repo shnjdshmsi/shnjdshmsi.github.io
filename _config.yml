@@ -11,10 +11,10 @@ locale                   : "en-US"
 title                    : "Shayan Nejadshamsi"
 title_separator          : "-"
 name                     : &name "Shayan Nejadshamsi"
-description              : &description "PhD Candidate at NYU"
+description              : #&description ""
 url                      : https://shnjdshmsi.github.io// # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "shnejadshamsi/shnejadshamsi.github.io"
+repository               : "shnjdshmsi/shnjdshmsi.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -23,7 +23,7 @@ author:
   # Biographic information
   avatar           : "https://shnjdshmsi.github.io/images/shnjdshmsi.jpg"
   name             : "Shayan Nejadshamsi"
-  pronouns         : "he/him"  # example: "she/her"  
+  pronouns         : #"he/him"  # example: "she/her"  
   bio              : "Machine Learning Researcher <br> x.nejadshamsi@mcgill.ca, x = shayan"
   location         : "Toronto, ON, Canada"
   employer         : "Mila (Quebec AI Institute)"
@@ -34,7 +34,7 @@ author:
   arxiv            : # URL - Updatewith the correct link to your profile
   googlescholar    : "https://scholar.google.com/citations?hl=en&user=3Gj_NTIAAAAJ&view_op=list_works&sortby=pubdate"
   impactstory      : # URL
-  orcid            : #"http://orcid.org/yourorcidurl"
+  orcid            : "https://orcid.org/0000-0002-7501-8016"
   semantic         : # URL
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : # URL
