@@ -2,6 +2,9 @@
 main:
   - title: "Publications"
     url: /publications/
+  
+  - title: "Experience"
+    url: /experience/
 
   - title: "Talks"
     url: /talks/    
@@ -16,4 +19,4 @@ main:
     url: /teaching/
     
   - title: "CV"
-    url: https://sanaelotfi.github.io/files/cv/cv_sanae_lotfi.pdf
+    url: https://shnjdshmsi.github.io/files/cv/cv_shnjdshmsi.pdf
