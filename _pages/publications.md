@@ -9,6 +9,8 @@ author_profile: true
 
 ****Graph Neural Network****
 
+You can find the full list of my papers on <a href="{{site.author.googlescholar}}">my Google Scholar profile.
+
 **[Predicting Short-Term Bike-Sharing Demand at Station Level: A Multi-Task Dynamic Graph-based Spatiotemporal Approach](https://www.sciencedirect.com/science/article/pii/S0950705125020246)** \
 **Shayan Nejadshamsi**, Jamal Bentahar, Chun Wang, Ursula Eicker \
 _Knowledge-Based Systems, 2025_
@@ -39,7 +41,32 @@ _Chaos, Solitons and Fractals, 2026_
 
 ---
 
-****Graph Neural Network****
+****Computer Vision****
+
+
+**[FARM : Crop Yield Prediction via Regression on Prithvi’s Encoder for Satellite Sensing](https://www.mdpi.com/2624-7402/8/1/2)** \
+**Shayan Nejadshamsi**, Yuanyuan Zhang, Brock Porth, Shadi Zaki, Lysa Porth, Vahab Khoshdel\
+_AgriEngineering, 2026_ 
+<!--[[arxiv](), [code]()] -->
+
+**[Drift ≠ Error: Reliability Analysis of Agricultural Foundation Models Under Distribution Shift]()** \
+Vahab Khoshdel, **Shayan Nejadshamsi**, Brock Porth, Shadi Zaki, Yuanyuan Zhang, Lysa Porth \
+_ICLR 2026 Workshop - Catch, Adapt, Operate (CAO)_
+<!--[[arxiv](), [code]()] -->
+
+---
+
+**[Enhancing Network Intrusion Detection Systems: A Multi-Layer Ensemble Approach to Mitigate Adversarial Attacks](https://ieeexplore.ieee.org/abstract/document/11342479)** \
+Nasim Soltani, **Shayan Nejadshamsi**, Zakaria Abou El Houda, Raphaël Khoury, Kelton AP Costa, Tiago H Falk, Anderson R Avila\
+_2025 IEEE International Conference on Systems, Man, and Cybernetics (SMC)_ 
+<!--[[arxiv](), [code]()] -->
+
+
+**[Development and Feasibility Study of HOPE Model for Prediction of Depression Among Older Adults Using Wi-Fi-based Motion Sensor Data: Machine Learning Study](https://academic.oup.com/jamiaopen/article/9/1/ooaf171/8371911)** \
+**Shayan Nejadshamsi**, Charlene H. Chu, Katherine S McGilton, Xiaoxiao Li, Charlene Ronquillo, Samira Abbasgholizadeh-Rahimi \
+_JAMIA open, 2026_
+<!--[[arxiv](), [code]()] -->
+
 
 
 **[]()** \
@@ -57,27 +84,7 @@ _d_ \
 _d_ \
 <!--[[arxiv](), [code]()] -->
 
-**[]()** \
- \
-_d_ \
-<!--[[arxiv](), [code]()] -->
-
-**[]()** \
- \
-_d_ \
-<!--[[arxiv](), [code]()] -->
-
-**[]()** \
- \
-_d_ \
-<!--[[arxiv](), [code]()] -->
-
-**[]()** \
- \
-_d_ \
-<!--[[arxiv](), [code]()] -->
-
-**[]()** \
+**[Spatio-Temporal Urban Analytics: Data-Driven Building Occupancy Estimation and Graph Deep Learning for Mobility Demand Forecasting](https://spectrum.library.concordia.ca/id/eprint/995656/)** \
 **Shayan Nejadshamsi** \
 _PhD Thesis, 2025_ \
 **Best Thesis Award** \
@@ -85,7 +92,7 @@ Concordia University
 
 <!-- <sup>*</sup> denotes equal contribution. -->
 
-You can also find my papers on <a href="{{site.author.googlescholar}}">my Google Scholar profile. 
+ 
 
 ---
 <!--### Surveys -->
