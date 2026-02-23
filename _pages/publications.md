@@ -37,7 +37,20 @@ _Internet of Things, 2025_
 
 **[Property-Aware Graph Neural Networks for Adaptive Link Prediction in Complex Networks](https://www.sciencedirect.com/science/article/pii/S0957417424024011)** \
 Yang Liu, **Shayan Nejadshamsi**\
-_Chaos, Solitons and Fractals, 2026_ 
+_Chaos, Solitons and Fractals, 2026 (Revised)_ 
+
+
+**[LAGraph: Language-Aware Graph Contrastive Representation Learning via Dual Semantic Alignment]()** \
+Yu Chen, Shengbin Haoa, **Shayan Nejadshamsi**\
+_Neurocomputing, 2026 (Revised)_ 
+<!--[[arxiv](), [code]()] -->
+
+
+**[Decoupled Graph Anomaly Detection for IoT Security: A Disentangled Learning Framework]()** \
+Chunxue Xu, **Shayan Nejadshamsi**\
+_Internet of Things, 2026 (Under-review)_ 
+<!--[[arxiv](), [code]()] -->
+
 
 ---
 
@@ -69,15 +82,12 @@ _JAMIA open, 2026_
 
 
 
-**[]()** \
- \
-_d_ \
+**[Generative artificial intelligence for distributed learning to enhance smart grid communication](https://www.sciencedirect.com/science/article/pii/S2666603024000265)** \
+Seyed Mahmoud Sajjadi Mohammadabadi, Mahmoudreza Entezami, Aidin Karimi Moghaddam, Mansour Orangian, **Shayan Nejadshamsi**\
+_International Journal of Intelligent Networks, 2024_ \
 <!--[[arxiv](), [code]()] -->
 
-**[]()** \
- \
-_d_ \
-<!--[[arxiv](), [code]()] -->
+
 
 **[]()** \
  \
