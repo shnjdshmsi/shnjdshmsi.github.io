@@ -7,7 +7,7 @@ author_profile: true
 
 ---
 
-****Graph Neural Network****
+**Graph Neural Network**
 
 You can find the full list of my papers on <a href="{{site.author.googlescholar}}">my Google Scholar profile.
 
@@ -54,7 +54,7 @@ _Internet of Things, 2026 (Under-review)_
 
 ---
 
-****Computer Vision****
+**Computer Vision**
 
 
 **[FARM : Crop Yield Prediction via Regression on Prithvi’s Encoder for Satellite Sensing](https://www.mdpi.com/2624-7402/8/1/2)** \
