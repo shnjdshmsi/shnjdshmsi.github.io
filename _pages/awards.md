@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Selected Honoura and Awards"
+title: "Selected Awards"
 permalink: /awards/
 author_profile: true
 ---
