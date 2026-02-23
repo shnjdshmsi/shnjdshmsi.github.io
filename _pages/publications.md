@@ -16,6 +16,10 @@ _Knowledge-Based Systems, 2025_
 <!-- _Under conference review._ \ -->
 <!-- [[arxiv]()] -->
 
+**[Geographic-semantic Context-aware Urban Commuting Flow Prediction Model Using Graph Neural Network](https://www.sciencedirect.com/science/article/pii/S0957417424024011)** \
+**Shayan Nejadshamsi**, Jamal Bentahar, Ursula Eicker, Chun Wang, Faezeh Jamshidi \
+_Expert Systems with Applications, 2025_ 
+
 
 **[A New Method for Attributed Graph Clustering with Dual-manifold Orthogonal Matrix Learning](https://link.springer.com/article/10.1007/s00530-025-01998-w)** \
 TianYi Yu, **Shayan Nejadshamsi** \
@@ -29,9 +33,9 @@ _Internet of Things, 2025_
 <!-- **Best Papers Track** \ -->
 <!--[[arxiv](), [code]()] -->
 
-**[Geographic-semantic Context-aware Urban Commuting Flow Prediction Model Using Graph Neural Network](https://www.sciencedirect.com/science/article/pii/S0957417424024011)** \
-**Shayan Nejadshamsi**, Jamal Bentahar, Ursula Eicker, Chun Wang, Faezeh Jamshidi \
-_Expert Systems with Applications, 2025_ 
+**[Property-Aware Graph Neural Networks for Adaptive Link Prediction in Complex Networks](https://www.sciencedirect.com/science/article/pii/S0957417424024011)** \
+Yang Liu, **Shayan Nejadshamsi**\
+_Chaos, Solitons and Fractals, 2026_ 
 
 ---
 
