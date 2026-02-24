@@ -5,20 +5,20 @@ permalink: /teaching/
 author_profile: true
 ---
 
-### Section Leader: Introduction to Data Science for PhD Students @ NYU, Fall 2021, 2023 & 2024
-- Prepared and delivered lab sessions, created assignments, graded assignments and class projects, and held office hours. 
+## Teaching Assistantships
 
-### Teaching Assistant: Harnessing Quantum Matter Data Revolution Summer School, Summer 2021
-- Prepared and delivered hands-on sessions on density estimation methods, probabilistic PCA, and probabilistic modeling tools.
+**Concordia University:**
 
-### Teaching Assistant: Representation Learning @ University of Montreal, Fall 2020
-- Created new quizzes and assignments, graded assignments and exams, and held office hours. 
-
-### Section Leader: Probability and Statistics for AI @ Polytechnique Montréal, Fall 2020, Winter 2019 & Fall 2019
-- Prepared and delivered lab sessions, created new lab assignments and class projects, graded assignments and exams, and held office hours. 
-
-### Mathematics Instructor @ Renovo Association, Summer 2018
-- Developed practice exercises and conducted training sessions to prepare students for rigorous oral mathematics examinations at the Classes Préparatoires level, targeting the highly competitive undergraduate entrance exam in France.
-
-### Mathematics and Physics Instructor @ Renovo Association, 2016 - 2018
-- Created and delivered mathematics and physics to students from disadvantaged backgrounds at the high school level.
+| Course Code | Course Title | Instructor |
+|-------------|-------------|------------|
+| COMP 6591 | Introduction to Knowledge-Base Systems | Dr. Ali Jannatpour |
+| SEON 6441 | Advanced Programming Practices | Dr. Constantinos Constantinides |
+| SOEN 384 | Management, Measurement and Software Quality Control | Dr. Nora Houari |
+| SOEN 363 | Data Systems for Software Engineers | Dr. Ali Jannatpour |
+| COMP 348 | Principles of Programming Languages | Dr. Ali Jannatpour |
+| COMP 335 | Introduction to Theoretical Computer Science | Dr. Gösta Grahne |
+| COMP 345 | Advanced Program Design, C++ | Dr. Joey Paquet |
+| COMP 248 | Object-Oriented Programming I | Dr. Nora Houari |
+| SOEN 343 | Software Architecture and Design | Dr. Joumana Dargham |
+| COEN 311 | Computer Organization and Software | Dr. Fadi Alzhouri |
+| COEN 316 | Computer Architecture and Design | Dr. Fadi Alzhouri |
