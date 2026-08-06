@@ -1,0 +1,239 @@
+/* ==========================================================================
+   Plain-CSS recreation of the Academic Pages / Minimal Mistakes look.
+   No build step required. Edit freely.
+   ========================================================================== */
+
+:root {
+  --text-color: #494e52;
+  --muted-color: #646769;
+  --link-color: #2f7d95;
+  --link-hover: #1d4e5d;
+  --border-color: #f2f3f3;
+  --masthead-height: 64px;
+  --sidebar-width: 220px;
+  --max-width: 1100px;
+}
+
+* { box-sizing: border-box; }
+
+html { font-size: 16px; }
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  color: var(--text-color);
+  line-height: 1.6;
+  background: #fff;
+}
+
+a { color: var(--link-color); text-decoration: none; }
+a:hover { color: var(--link-hover); text-decoration: underline; }
+
+/* ---------- Masthead ---------- */
+.masthead {
+  border-bottom: 1px solid var(--border-color);
+  position: sticky;
+  top: 0;
+  background: #fff;
+  z-index: 20;
+}
+
+.masthead-inner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 1.5em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: var(--masthead-height);
+  flex-wrap: wrap;
+}
+
+.site-title {
+  font-weight: 700;
+  font-size: 1.15em;
+  color: #343434;
+}
+.site-title:hover { text-decoration: none; color: var(--link-color); }
+
+.site-nav { display: flex; gap: 1.4em; flex-wrap: wrap; padding: 0.5em 0; }
+
+.site-nav a {
+  color: #494e52;
+  font-size: 0.95em;
+  position: relative;
+}
+.site-nav a:hover { color: var(--link-color); text-decoration: none; }
+.site-nav a.active { color: var(--link-color); font-weight: 600; }
+.site-nav a::after {
+  content: "";
+  position: absolute;
+  left: 0; bottom: -4px;
+  width: 0; height: 2px;
+  background: var(--link-color);
+  transition: width 0.2s ease;
+}
+.site-nav a:hover::after, .site-nav a.active::after { width: 100%; }
+
+/* ---------- Layout ---------- */
+.page-wrap {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 2em 1.5em;
+  display: grid;
+  grid-template-columns: var(--sidebar-width) minmax(0, 1fr);
+  gap: 2.5em;
+  align-items: start;
+}
+
+/* ---------- Sidebar / author profile ---------- */
+.sidebar { font-size: 0.9em; }
+
+.author-avatar img {
+  width: 175px;
+  max-width: 100%;
+  border-radius: 50%;
+  display: block;
+}
+
+.author-name {
+  margin: 0.75em 0 0.2em;
+  font-size: 1.15em;
+  font-weight: 700;
+  color: #343434;
+}
+
+.author-bio { margin: 0 0 0.75em; color: var(--muted-color); }
+
+.author-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.author-links li { margin-bottom: 0.45em; color: var(--muted-color); }
+.author-links li i, .author-links li svg {
+  width: 1.25em;
+  text-align: center;
+  margin-right: 0.4em;
+  color: var(--muted-color);
+}
+.author-links a { color: var(--muted-color); }
+.author-links a:hover { color: var(--link-color); text-decoration: none; }
+
+/* ---------- Content ---------- */
+.page-title {
+  margin: 0 0 0.75em;
+  font-size: 1.75em;
+  line-height: 1.2;
+  color: #343434;
+}
+
+.page-content h2, .page-content h3 {
+  color: #343434;
+  margin-top: 1.6em;
+}
+
+.page-content hr {
+  border: 0;
+  border-top: 1px solid var(--border-color);
+  margin: 2em 0;
+}
+
+/* Publications */
+.pub-group-title {
+  font-size: 1.15em;
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 0.3em;
+}
+
+.pub {
+  margin-bottom: 1.5em;
+}
+.pub .pub-title { font-weight: 700; }
+.pub .pub-authors { display: block; }
+.pub .pub-venue { display: block; font-style: italic; color: var(--muted-color); }
+.pub .pub-award { display: block; font-weight: 700; color: #b3661b; }
+
+/* Experience */
+.xp { margin-bottom: 1.75em; }
+.xp h3 { margin: 0 0 0.1em; font-size: 1.1em; }
+.xp .xp-org { font-weight: 600; }
+.xp .xp-dates { color: var(--muted-color); font-weight: 400; }
+.xp ul { margin: 0.5em 0 0; padding-left: 1.25em; }
+.xp li { margin-bottom: 0.25em; }
+
+/* Tables (teaching) */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 0.95em;
+  margin: 1em 0;
+}
+th, td {
+  text-align: left;
+  padding: 0.5em 0.75em;
+  border-bottom: 1px solid var(--border-color);
+}
+th { color: #343434; border-bottom: 2px solid #e4e6e6; }
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  padding: 0.5em 1.1em;
+  background: var(--link-color);
+  color: #fff !important;
+  border-radius: 4px;
+  font-size: 0.9em;
+  font-weight: 600;
+}
+.btn:hover { background: var(--link-hover); text-decoration: none; }
+
+/* Embedded CV PDF */
+.cv-embed {
+  width: 100%;
+  height: 82vh;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  margin-top: 1em;
+}
+
+/* Auto-generated CV (pandoc output) */
+.cv-generated h1 { font-size: 1.4em; }
+.cv-generated h2 {
+  font-size: 1.15em;
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 0.3em;
+}
+
+/* ---------- Footer ---------- */
+.site-footer {
+  border-top: 1px solid var(--border-color);
+  margin-top: 3em;
+}
+.site-footer-inner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 1.25em 1.5em;
+  font-size: 0.85em;
+  color: var(--muted-color);
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 768px) {
+  .page-wrap { grid-template-columns: 1fr; gap: 1.5em; }
+  .sidebar {
+    display: grid;
+    grid-template-columns: 110px 1fr;
+    gap: 1.25em;
+    align-items: center;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 1.25em;
+  }
+  .author-avatar img { width: 110px; }
+  .author-name { margin-top: 0; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .site-nav a::after { transition: none; }
+}

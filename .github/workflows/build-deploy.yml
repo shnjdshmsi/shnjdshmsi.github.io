@@ -1,0 +1,63 @@
+name: Build & Deploy Website
+
+on:
+  push:
+    branches: [main, master]
+  workflow_dispatch:        # lets you rebuild manually from the Actions tab
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      # 1) Compile cv/cv.tex -> cv/cv.pdf (full TeX Live, handles
+      #    moderncv / awesome-cv / anything Overleaf compiles)
+      - name: Compile CV PDF
+        uses: xu-cheng/latex-action@v3
+        with:
+          root_file: cv.tex
+          working_directory: cv
+          # If your Overleaf CV needs XeLaTeX (e.g., awesome-cv or
+          # custom fonts), uncomment the next line:
+          # latexmk_use_xelatex: true
+
+      # 2) Convert cv/cv.tex -> cv.html (with embedded-PDF fallback)
+      - name: Install pandoc
+        run: sudo apt-get update && sudo apt-get install -y pandoc
+
+      # 3) Assemble the static site
+      - name: Assemble site
+        run: |
+          mkdir -p _site/files
+          cp -r assets images _site/
+          [ -d files ] && cp -r files/. _site/files/ || true
+          cp *.html _site/
+          mv cv/cv.pdf _site/files/cv_shnjdshmsi.pdf
+          python3 scripts/build_cv.py cv/cv.tex _site/cv.html
+
+      - name: Upload site artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

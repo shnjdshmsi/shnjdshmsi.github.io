@@ -1,0 +1,61 @@
+% ============================================================
+% cv.tex — single source of truth for the CV.
+%
+% This file lives in the GitHub repo and (once linked) in your
+% Overleaf project. Every push rebuilds the website:
+%   1. This file is compiled to PDF  ->  files/cv_shnjdshmsi.pdf
+%   2. It is converted to HTML       ->  cv.html on the website
+%
+% You can replace the entire contents with your existing Overleaf
+% CV (moderncv, awesome-cv, article — anything that compiles with
+% latexmk/pdflatex or xelatex).
+% ============================================================
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage[hidelinks]{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
+\setlist[itemize]{leftmargin=*, itemsep=2pt, topsep=2pt}
+\pagestyle{empty}
+
+\begin{document}
+
+\begin{center}
+    {\LARGE \textbf{Shayan Nejadshamsi}}\\[4pt]
+    Machine Learning Researcher \\
+    Toronto, ON, Canada \quad $\vert$ \quad
+    \href{https://shnjdshmsi.github.io}{shnjdshmsi.github.io} \quad $\vert$ \quad
+    \href{https://github.com/shnjdshmsi}{github.com/shnjdshmsi}
+\end{center}
+
+\section{Education}
+\begin{itemize}
+    \item \textbf{Ph.D. in Information and Systems Engineering}, Concordia University, Montreal, Canada, 2025. \emph{Best Thesis Award.}
+    \item \textbf{M.Sc.}, Amirkabir University of Technology, Iran.
+    \item \textbf{B.Sc.}, Amirkabir University of Technology, Iran.
+\end{itemize}
+
+\section{Experience}
+\begin{itemize}
+    \item \textbf{Machine Learning Research Assistant}, Mila (Quebec AI Institute) / McGill University, Apr 2024 -- Present. Digital twin for cardiovascular risk monitoring from Oura ring data; 2D foundation model for cardiovascular disease detection; Wi-Fi-based depression identification in older adults.
+    \item \textbf{Machine Learning Researcher (Mitacs)}, AIRM Consulting / University of Manitoba, Jun 2024 -- Dec 2024. Fine-tuned geospatial foundation models for agriculture; multi-space distribution drift detection framework.
+    \item \textbf{Optimization Researcher}, UQAM / GERAD / CIRRELT, Aug 2023 -- Mar 2024. Stochastic optimization under decision-dependent uncertainty in disaster management.
+    \item \textbf{Graduate Student Researcher}, Concordia University, Sep 2020 -- May 2025. Multi-task graph neural networks for bike-sharing demand; spatiotemporal traffic prediction; commuting flow prediction.
+\end{itemize}
+
+\section{Selected Publications}
+\begin{itemize}
+    \item \textbf{S. Nejadshamsi}, J. Bentahar, C. Wang, U. Eicker. Predicting Short-Term Bike-Sharing Demand at Station Level: A Multi-Task Dynamic Graph-based Spatiotemporal Approach. \emph{Knowledge-Based Systems}, 2025.
+    \item \textbf{S. Nejadshamsi}, J. Bentahar, U. Eicker, C. Wang, F. Jamshidi. Geographic-semantic Context-aware Urban Commuting Flow Prediction Model Using Graph Neural Network. \emph{Expert Systems with Applications}, 2025.
+    \item \textbf{S. Nejadshamsi}, Y. Zhang, B. Porth, S. Zaki, L. Porth, V. Khoshdel. FARM: Crop Yield Prediction via Regression on Prithvi's Encoder for Satellite Sensing. \emph{AgriEngineering}, 2026.
+\end{itemize}
+
+\section{Awards}
+\begin{itemize}
+    \item Best Thesis Award, Concordia University, 2025.
+    \item International Tuition Excellence Award, Concordia University.
+    \item Silver medalist, National Astronomy and Astrophysics Olympiad, Iran.
+\end{itemize}
+
+\end{document}
